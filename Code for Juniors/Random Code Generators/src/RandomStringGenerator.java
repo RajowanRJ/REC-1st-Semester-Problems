@@ -31,8 +31,6 @@ public class RandomStringGenerator {
                 
             {   
                     "Act Like a Begger!",
-                    "Dance on Hero Alom's Song",
-                    "Act as a Transgender!",
                     "Sing a Song in the style of Hero Alom",
                     "Act with Zayed khan's Famous Dialogues",
                     "Act like Mad",
@@ -40,13 +38,12 @@ public class RandomStringGenerator {
                     "Act as a bus helper",
                     "Act on any dialogue of dipjol",
                     "Introduce yourself in bengali without using a English word",
-                    "Sing a song, tell a jokes",
+                    "Sing a song",
+                    "Tell a joke",
             },
             
                 {
                     "Act Like a Begger!",
-                    "Dance on Hero Alom's Song",
-                    "Act as a Transgender!",
                     "Sing a Song in the style of Hero Alom",
                     "Act with Zayed khan's Famous Dialogues",
                     "Act like Mad",
@@ -54,13 +51,12 @@ public class RandomStringGenerator {
                     "Act as a bus helper",
                     "Act on any dialogue of dipjol",
                     "Introduce yourself in bengali without using a English word",
-                    "Sing a song, tell a jokes",
+                    "Sing a song",
+                    "Tell a joke",
                 },
                 
                 {
                     "Act Like a Begger!",
-                    "Dance on Hero Alom's Song",
-                    "Act as a Transgender!",
                     "Sing a Song in the style of Hero Alom",
                     "Act with Zayed khan's Famous Dialogues",
                     "Act like Mad",
@@ -68,13 +64,12 @@ public class RandomStringGenerator {
                     "Act as a bus helper",
                     "Act on any dialogue of dipjol",
                     "Introduce yourself in bengali without using a English word",
-                    "Sing a song, tell a jokes",
+                    "Sing a song",
+                    "Tell a joke",
                 },
                 
                 {
                    "Act Like a Begger!",
-                    "Dance on Hero Alom's Song",
-                    "Act as a Transgender!",
                     "Sing a Song in the style of Hero Alom",
                     "Act with Zayed khan's Famous Dialogues",
                     "Act like Mad",
@@ -82,13 +77,12 @@ public class RandomStringGenerator {
                     "Act as a bus helper",
                     "Act on any dialogue of dipjol",
                     "Introduce yourself in bengali without using a English word",
-                    "Sing a song, tell a jokes",
+                    "Sing a song",
+                    "Tell a joke",
                 },
                 
                 {
                     "Act Like a Begger!",
-                    "Dance on Hero Alom's Song",
-                    "Act as a Transgender!",
                     "Sing a Song in the style of Hero Alom",
                     "Act with Zayed khan's Famous Dialogues",
                     "Act like Mad",
@@ -96,7 +90,8 @@ public class RandomStringGenerator {
                     "Act as a bus helper",
                     "Act on any dialogue of dipjol",
                     "Introduce yourself in bengali without using a English word",
-                    "Sing a song, tell a jokes",
+                    "Sing a song",
+                    "Tell a joke",
                 },
         };
         if (userInput < 1 || userInput > 5) {
@@ -113,9 +108,15 @@ public class RandomStringGenerator {
         
         int x = in.nextInt();
         
-        if (x == 1 || x == 2 || x == 3 || x == 4 || x == 5)
-            System.out.println("Dance on a Random Song");
-        else
-            System.out.println("Invalid Input : Enter 1 to 5");   
+        switch (x) {
+            case 1 -> System.out.println("Act as a Transgender!");
+            case 2 -> System.out.println("Dance on Hero Alom's Song!");
+            case 3 -> System.out.println("Do the Zayed Khan's Flip!");
+            case 4 -> System.out.println("Dance on a Random song!");
+            case 5 -> System.out.println();
+            default -> System.out.println("Invalid Input : Enter 1 to 5");
+        }
     }
 }
+    
+
