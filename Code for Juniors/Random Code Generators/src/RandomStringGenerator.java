@@ -109,12 +109,24 @@ public class RandomStringGenerator {
         int x = in.nextInt();
         
         switch (x) {
-            case 1 -> System.out.println("Act as a Transgender!");
-            case 2 -> System.out.println("Dance on Hero Alom's Song!");
-            case 3 -> System.out.println("Do the Zayed Khan's Flip!");
-            case 4 -> System.out.println("Dance on a Random song!");
-            case 5 -> System.out.println();
-            default -> System.out.println("Invalid Input : Enter 1 to 5");
+            case 1:
+                System.out.println("Act as a Transgender!");
+                break;
+            case 2:
+                System.out.println("Dance on Hero Alom's Song!");
+                break;
+            case 3:
+                System.out.println("Do the Zayed Khan's Flip!");
+                break;
+            case 4:
+                System.out.println("Dance on a Random song!");   
+                break;
+            case 5:
+                System.out.println();
+                break;
+            default:
+                System.out.println("Invalid Input : Enter 1 to 5");
+                break;
         }
     }
 }
